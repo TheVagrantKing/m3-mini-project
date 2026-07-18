@@ -41,6 +41,9 @@ button {
     font-size: 24px;
     cursor: pointer;
 }
+
+button:hover {
+    background-color: #04a8b0;
 }
 
 a {
@@ -68,16 +71,103 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+}
+
+#about, 
+#discord, 
+#contact, 
+footer {
+    padding: 48px 0;
 }
 
 /*ABOUT */
 
 #about {
-    padding: 48px 0;
+    background-color: #faffdc;
 }
 
 h2 {
     font-size: 60px;
     text-align: center;
     margin-bottom: 24px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__image {
+    width: 40%;
+    padding: 0 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.description--text {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+/*Discord*/
+
+#discord {
+    background-color: #cefeff;
+}
+
+.discord__image {
+    width: 40%;
+    padding: 0 24px;
+}
+
+/*Contact*/
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    max-width: 400px;
+    margin-bottom: 16px;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__link {
+    padding: 0 16px;
 }

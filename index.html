@@ -32,44 +32,53 @@
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>Welcome to our community! We are dedicated to helping you learn frontend development.</p>
+            <div class="row">
+            <div class="description">
+                <div class="description--wrapper">
+                    <p class="description--text">Welcome to our community! We are dedicated to helping you learn frontend development.</p>
+                </div>
+                <figure class="about__image">
+                    <img src="./assets/about.jpg" alt="About">
+                </figure>
             </div>
-            <figure>
-                <img src="./assets/about.jpg" alt="About">
-            </figure>
+            </div>
         </section>
         
 
         <section id="discord">
             <h2>Discord</h2>
-            <div>
-                <p>Join our Discord server to connect with other learners and get help with your frontend development journey.</p>
+            <div class="row">
+            <div class="description">
+                <figure class="discord__image">
+                    <img src="./assets/discord.png" alt="Discord">
+                </figure>
+                <div class="description--wrapper">
+                    <p class="description--text">Join our Discord server to connect with other learners and get help with your frontend development journey.</p>
+                </div>
             </div>
-            <figure>
-                <img src="./assets/discord.png" alt="Discord">
-            </figure>
+            </div>
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
-            <div>
+            <div class="row">
             <form action="">
                 <span>Email</span>
                 <input type="email" placeholder="Your email">
                 <span>Message</span>
                 <textarea placeholder="Your message"></textarea>
-                <button type="submit">Send</button>
+                <button type="submit">Contact Us</button>
+            </div>
             </form>
         </section>
     </main>
     <footer>
-        <img src="./assets/FES.svg" alt="FES">
-        <div>
-            <a href="#about">About</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact</a>
-            <a href="">Courses</a>
+        <img class="footer__logo" src="./assets/FES.svg" alt="FES">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact</a>
+            <a class="footer__link" href="">Courses</a>
         </div>
         <p>&copy; 2023 FES. All rights reserved.</p>
     </footer>
